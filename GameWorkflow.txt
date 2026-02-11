@@ -1,0 +1,6 @@
+InitGame() // 초기화면
+while (gameRunning) // 게임이 실행되는동안
+    UpdateInput() // 입력 업데이트
+    UpdateGameState() // 게임 상태 업데이트
+    Draw() // 렌더링 구현
+Shutdown() // 종료
